@@ -1,0 +1,7 @@
+D:\VisualStudioprojecten\MOT\Mot.Domain\bin\Release\Mot.Models.dll
+D:\VisualStudioprojecten\MOT\Mot.Domain\bin\Release\Mot.Models.pdb
+D:\VisualStudioprojecten\MOT\Mot.Domain\bin\Release\Newtonsoft.Json.dll
+D:\VisualStudioprojecten\MOT\Mot.Domain\bin\Release\Newtonsoft.Json.xml
+D:\VisualStudioprojecten\MOT\Mot.Domain\obj\Release\Mot.Domain.csprojResolveAssemblyReference.cache
+D:\VisualStudioprojecten\MOT\Mot.Domain\obj\Release\Mot.Models.dll
+D:\VisualStudioprojecten\MOT\Mot.Domain\obj\Release\Mot.Models.pdb

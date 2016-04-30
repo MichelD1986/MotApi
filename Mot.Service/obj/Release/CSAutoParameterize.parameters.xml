@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Mot.Infrastructure.Properties.Settings.MoTConnectionString-Web.config Connection String" description="Mot.Infrastructure.Properties.Settings.MoTConnectionString Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:motdbserver.database.windows.net,1433;Database=MoT;User ID=michel@motdbserver;Password=Supermd11;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\VisualStudioprojecten\\MOT\\Mot\.Service\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Mot.Infrastructure.Properties.Settings.MoTConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

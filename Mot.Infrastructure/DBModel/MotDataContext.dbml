@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MoT" Class="MotDataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=MICHELGANNA-PC\SQLEXPRESS2014;Initial Catalog=MoT;Integrated Security=True" SettingsObjectName="Mot.Infrastructure.Properties.Settings" SettingsPropertyName="MoTConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Settings" Member="Settings">
+    <Type Name="Setting">
+      <Column Name="Application_ID" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="Setting_Url_RestApi" Member="Url_RestApis" ThisKey="ID" OtherKey="SettingsId" Type="Url_RestApi" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Url_RestApi" Member="Url_RestApis">
+    <Type Name="Url_RestApi">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Api_Prefix" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Server" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SettingsId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Setting_Url_RestApi" Member="Setting" ThisKey="SettingsId" OtherKey="ID" Type="Setting" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tank" Member="Tanks">
+    <Type Name="Tank">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="TankId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nation" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Tier" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ImageUrl" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

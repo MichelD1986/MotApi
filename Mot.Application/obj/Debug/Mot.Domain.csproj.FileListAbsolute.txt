@@ -1,0 +1,5 @@
+D:\VisualStudioprojecten\MOT\Mot.Domain\bin\Debug\Mot.Domain.dll
+D:\VisualStudioprojecten\MOT\Mot.Domain\bin\Debug\Mot.Domain.pdb
+D:\VisualStudioprojecten\MOT\Mot.Domain\obj\Debug\Mot.Domain.csprojResolveAssemblyReference.cache
+D:\VisualStudioprojecten\MOT\Mot.Domain\obj\Debug\Mot.Domain.dll
+D:\VisualStudioprojecten\MOT\Mot.Domain\obj\Debug\Mot.Domain.pdb
